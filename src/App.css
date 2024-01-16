@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+    /* PIZZA STYLESHEET */
+ @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:ital,wght@1,600&family=Poppins:ital,wght@0,300;0,400;1,500;1,600&display=swap');
+
+
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.nav-link{
+  color: black !important;
+}
+.navbar-brand{
+  color: black;
+}
+h1{
+  font-size: 20px;
+}
+.flex-container{
+  display: flex !important ;
+}
+.btn{
+  background-color: red;
+  color: white;
+}
+select{
+  /* border-shadow: none; */
+  border-color: black !important;
+}
+#navbarNav{
+  float: right;
 }
